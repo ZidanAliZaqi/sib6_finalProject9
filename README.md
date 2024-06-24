@@ -14,5 +14,5 @@
 8. Run `python finhub_mongodb_loader.py`
 9. Run `pip install psycopg2-binary`
 10. Run `python sentiment_analysis_loader.py`
-11. Create Database `Enter docker desktop -> poastgres image -> terminal -> psql -Uairflow -> create database data_warehouse; -> \du -> \l ` or `docker exec it <postgres images id> bash -> psql -Uairflow -> create database data_warehouse; -> \du -> \l` 
+11. Create Database `Enter docker desktop -> postgres image -> terminal -> psql -Uairflow -> create database data_warehouse; -> \du -> \l ` or `docker exec it <postgres images id> bash -> psql -Uairflow -> create database data_warehouse; -> \du -> \l` 
 12. Check the newly entered database `\c data_warehouse -> \d -> select * from sentiment_news_analysis limit 20;`
