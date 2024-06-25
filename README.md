@@ -1,5 +1,6 @@
 # SIB6_Final Project
 
+# Steps :
 1. Run Airflow using `docker-compose up`
 2. Create Plugins:
     - Finnhub loader
@@ -16,3 +17,7 @@
 10. Run `python sentiment_analysis_loader.py`
 11. Create Database `Enter docker desktop -> postgres image -> terminal -> psql -Uairflow -> create database data_warehouse; -> \du -> \l ` or `docker exec it <postgres images id> bash -> psql -Uairflow -> create database data_warehouse; -> \du -> \l` 
 12. Check the newly entered database `\c data_warehouse -> \d -> select * from sentiment_news_analysis limit 20;`
+
+# Ouput
+1. Output finnhub_mongodb_loader.py
+![Alt text](Screenshot Output/Output finnhub_mongodb_loader.py)
