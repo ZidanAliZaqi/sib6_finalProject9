@@ -20,4 +20,12 @@
 
 # Ouput
 1. Output finnhub_mongodb_loader.py
-![Alt text](Screenshot Output/Output finnhub_mongodb_loader.py)
+![Alt text](Screenshot%Output/Output%finnhub_mongodb_loader.png)
+2. Output sentiment_analysis_loader.py
+![Alt text](Screenshot%Output/Output%sentiment_analysis_loader.png)
+3. Output Image Postgres
+![Alt text](Screenshot%Output/Output%Image%Postgres.png)
+4. Output Atlas MongoDB
+![Alt text](Screenshot%Output/Output%Atlas%MongoDB.png)
+5. Output DBeaver
+![Alt text](Screenshot%Output/Output%Pada%DBeaver.png)
