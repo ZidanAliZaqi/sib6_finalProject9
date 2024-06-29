@@ -1,4 +1,5 @@
 import pymongo
+import config as conf
 
 def get_mongo_client(mongo_uri):
     """Establish connection to the MongoDB."""
@@ -17,7 +18,7 @@ def get_mongo_client(mongo_uri):
         return None
 
 def load(database, collection):
-    mongo_uri = "mongodb+srv://final_project:final_project@learn-mongo.cvq1xop.mongodb.net/?retryWrites=true&w=majority&appName=learn-mongo"
+    mongo_uri = conf.mongo_uri
     if not mongo_uri:
         print("MONGO_URI not set in environment variables")
 
@@ -30,7 +31,7 @@ def load(database, collection):
     return col
 
 def get_data(database, collection):
-    mongo_uri = "mongodb+srv://final_project:final_project@learn-mongo.cvq1xop.mongodb.net/?retryWrites=true&w=majority&appName=learn-mongo"
+    mongo_uri = conf.mongo_uri
     if not mongo_uri:
         print("MONGO_URI not set in environment variables")
 

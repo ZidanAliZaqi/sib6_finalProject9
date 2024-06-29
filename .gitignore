@@ -12,3 +12,5 @@ env9/
 
 # Ignore logs directory
 logs/
+
+config.py
